@@ -1,0 +1,289 @@
+/* font cdn */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* defult css */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.btn-mahi {
+    background: #6278df;
+    color: white;
+    padding: 15px 40px;
+    font-size: 23px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+.btn-mahi-1 {
+    background: #5BA533;
+    color: white;
+    padding: 15px 40px;
+    font-size: 23px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+.btn-mahi-2 {
+    border:2px solid #5BA533;
+    color: #5BA533;
+    padding: 15px 40px;
+    font-size: 23px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+.min-sec-bg{
+    background: #F7F9FF;
+}
+.amp-header .navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+}
+.amp-nav .nav-item a{
+    color: black !important; 
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-left: 40px;
+}
+
+
+
+/* slider-section */
+.slider-section{
+    background: url(images/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+    }
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.slider-caption h5 {
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 26px;
+}
+.slider-caption h2 {
+    margin-bottom: 44px;
+    font-size: 46px;
+}
+.slider-caption button {
+    padding: 16px 60px;
+    background-color: #5ba533;
+    outline: none;
+    color: white;
+    font-weight: 500;
+}
+.slider-caption .form-control {
+    padding: 16px 22px;
+}
+
+/* number counter */
+.number-counter-info .h2{
+    font-size: 3.6rem;
+}
+.number-counter-info .text-muted{
+    font-size: 1.3rem;
+}
+
+/* about sectipn */
+
+.about-section{
+    background: #F7F9FF;
+}
+.about-info h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.about-info p{
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-weight: 400;
+}
+
+
+/* feature-section */
+/* .card-text:last-child {
+    margin-bottom: 0;
+    line-height: 26px;
+} */
+.card-pic-main {
+    overflow: hidden;
+}
+.card-pic {
+    height: 252px;
+    width: auto;
+    max-width: initial;
+    position: relative;
+    left: -85px;
+}
+.card-pic-1 {
+    height: 252px;
+    width: auto;
+    max-width: initial;
+    position: relative;
+    left: -52px;
+}
+.card-pic-2 {
+    height: 252px;
+    width: auto;
+    max-width: initial;
+    position: relative;
+    left: -8px;
+}
+.card-pic-3 {
+    height: 252px;
+    width: auto;
+    max-width: initial;
+    position: relative;
+    left: -110px;
+}
+.card-pic-4 {
+    height: 252px;
+    width: auto;
+    max-width: initial;
+    position: relative;
+    left: -55px;
+}
+
+/* portfolio css */
+
+.portfolio-item{
+     position: relative;
+}
+
+.portfolio-item a::after{
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(98, 120, 223,0.6);
+      opacity: 0;
+      visibility: hidden;
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+    transition: .3s;
+}
+
+
+/* pricing-table */
+
+.pricing-table {
+    background: #fff;
+    padding: 50px;
+}
+.pricing-table h2 {
+    font-size: 40px;
+}
+.pricing-table h4 {
+    font-size: 21px;
+    font-weight: 300;
+}
+.pricing-table ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.pricing-table ul li {
+    padding: 15px 0;
+    font-size: 22px;
+    font-weight: 300;
+}
+.pricing-table i {
+    width: 32px;
+    color: #6278DF;
+}
+
+
+.pricing-btn button {
+    background: white;
+    color: #6278df;
+    padding: 7px 50px;
+    font-size: 23px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.pricing-btn button:hover{
+    background: #000;
+    color: white;
+    transition: .3s;
+}
+
+/* testimonial section */
+
+.testimonial h6 {
+    font-size: 20px;
+}
+
+.testimonial span {
+    font-size: 80px;
+}
+
+
+.author-pic {
+    width: 64px;
+}
+.author-pic img {
+    border-radius: 50%;
+}
+.author-info {
+    padding-left: 12px;
+}
+.author-info h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.author-info p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+/* team section */
+
+
+.team-mamber img {
+    width: 120px;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+.card{
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+}
+.team-info {
+    font-size: 19px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.card-btn button {
+    background: white;
+    font-weight: 600;
+    color: black;
+    padding: 5px 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    margin-left: 16px;
+}
+
+/* contact section */
+
+p.text-muted.pb-2 {
+    font-size: 20px;
+}
+.contact-part .card{
+    padding: 50px;
+}
+
+/* .last-pic{
+    width: 600px;
+} */
